@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Projeto ETL
+theme: 
+  name: material
+  palette:
+    primary: red
+  language: pt
+
+repo_name: "Lucas Alves - Workshop"
+repo_url: "https://github.com/Prog-LucasAlves/Workshop_01"
+
+markdown_extensions: 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins: 
+  - search
+  - mkdocstrings:
+      default_handler: python
