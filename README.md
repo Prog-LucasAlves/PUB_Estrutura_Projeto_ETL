@@ -1,7 +1,9 @@
 # Como Estruturar o Seu Projeto de Dados do Zero
 
+! [](https://excalidraw.com/#json=nAZaMrFuKED8CWKtNXmlF,uvjlR-67xM1NT7C5TnUDNg)
+
 - Essa é a documentação do projeto :
-- [Projeto](https://Prog-LucasAlves.github.io/Workshop_01/)
+- [Projeto](https://prog-lucasalves.github.io/Workshop_01/)
 
 1. Clone o repositório:
 
