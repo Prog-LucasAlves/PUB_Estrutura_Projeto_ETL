@@ -1,5 +1,8 @@
 # Como Estruturar o Seu Projeto de Dados do Zero
 
+- Essa é a documentação do projeto :
+- [Projeto](https://Prog-LucasAlves.github.io/Workshop_01/)
+
 1. Clone o repositório:
 
 ```bash
