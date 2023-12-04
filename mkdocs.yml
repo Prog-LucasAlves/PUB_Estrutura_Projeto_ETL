@@ -9,6 +9,7 @@ repo_name: "Lucas Alves - Workshop"
 repo_url: "https://github.com/Prog-LucasAlves/Workshop_01"
 
 markdown_extensions: 
+  - admonition:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
