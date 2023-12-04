@@ -1,7 +1,7 @@
 """Esse e o módulo para carregar os dados."""
 import os  # Biblioteca para manipular caminhos de arquivos e diretórios
 
-import pandas as pd
+import pandas as pd  # Biblioteca para trabalhar com dataframes e series
 
 
 def load_excel(
@@ -18,8 +18,12 @@ def load_excel(
     return: "Arquivo salvo com sucesso"
 
     """
+    # Verifica se o diretório de saída existe, se não existir, cria o diretório.
     if not os.path.exists(output_path):
+        # Cria o diretório de saída
         os.makedirs(output_path)
 
+    # Salva o dataframe como um arquivo excel no diretório de saída.
     data_frame.to_excel(f'{output_path}/{file_name}.xlsx', index=False)
+    # Retorna uma mensagem de sucesso.
     return 'Arquivo salvo com sucesso'
