@@ -19,4 +19,4 @@ jobs:
           curl -sSL https://install.python-poetry.org | python3 -
 
       - name: Run tests
-        run: poetry run pytest
+        run: poetry run pytest -v
