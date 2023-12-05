@@ -10,7 +10,6 @@ repos:
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
-      - id: name-tests-test
       - id: trailing-whitespace
       - id: check-added-large-files
   
