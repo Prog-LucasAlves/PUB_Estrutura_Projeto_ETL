@@ -1,21 +1,16 @@
 repos:
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.13.0
-    hooks:
-      - id: commitizen 
-        stages: [commit-msg]
-
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
-    hooks:
-      - id: end-of-file-fixer
-
-  -   repo: https://github.com/PyCQA/flake8
-      rev: 6.1.0
+  -   repo: https://github.com/commitizen-tools/commitizen
+      rev: v3.13.0
       hooks:
-      -   id: flake8
-  
-  -   repo: https://github.com/hhatto/autopep8
-      rev: v2.0.4
+        - id: commitizen
+          stages: [commit-msg]
+  -   repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v2.3.0
       hooks:
-      -   id: autopep8
+      -   id: check-yaml
+      -   id: end-of-file-fixer
+      -   id: trailing-whitespace
+  -   repo: https://github.com/psf/black
+      rev: 22.10.0
+      hooks:
+      -   id: black
