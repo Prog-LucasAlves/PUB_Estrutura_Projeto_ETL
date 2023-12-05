@@ -1,5 +1,7 @@
 """Esse e o módulo para transformar os dados."""
-from typing import List  # Biblioteca para tipar os dados de retorno da função concat_data_frames()
+from typing import (
+    List,  # Biblioteca para tipar os dados de retorno da função concat_data_frames()
+)
 
 import pandas as pd  # Biblioteca para trabalhar com dataframes e series
 

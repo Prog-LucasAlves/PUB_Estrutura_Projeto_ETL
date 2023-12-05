@@ -1,7 +1,9 @@
 """Esse e o módulo de extração de dados."""
 import glob  # Biblioteca para listar arquivos
 import os  # Biblioteca para manipular arquivos e pastas
-from typing import List  # Biblioteca para tipar os dados de retorno da função extract_from_excel()
+from typing import (
+    List,  # Biblioteca para tipar os dados de retorno da função extract_from_excel()
+)
 
 import pandas as pd  # Biblioteca para manipular dados em dataframes e series
 
