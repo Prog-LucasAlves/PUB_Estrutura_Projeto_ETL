@@ -7,3 +7,4 @@ if __name__ == '__main__':
     data_frame = concat_data_frames(data_frame_list)
     load_excel(data_frame, '../data/output', 'output')
     print('Pipeline executado com sucesso!')
+    print('Arquivo gerado em ../data/output/output.xlsx')
