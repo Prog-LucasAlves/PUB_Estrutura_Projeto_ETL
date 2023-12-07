@@ -1,6 +1,6 @@
 """Esse modulo prepara o arquivo Excel para ser inserido no banco de dados"""
-import conectdb
-import openpyxl
+import conectdb  # Importa o modulo de conexao com o banco de dados
+import openpyxl  # Importa o modulo de leitura de arquivos Excel
 
 # Salva o local do arquivo Excel em uma variavel
 excel_file = "../../data/output/output.xlsx"

@@ -48,3 +48,13 @@ def selectdata(query):
     vcon.commit()
     vcon.close()
     return rows
+
+
+def deletar(query):
+    """Função que faz o delete"""
+    vcon = conectar()
+    c = vcon.cursor()
+    c.execute(query)
+    vcon.commit()
+    vcon.close()
+    return deletar
