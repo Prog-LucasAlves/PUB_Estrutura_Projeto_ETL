@@ -1,12 +1,9 @@
-# Welcome to MkDocs
+# Welcome to Projeto ETL
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Índice
 
-!!! warning "Warning"
-    This is an example of a **warning** or **attention** message.
-
-!!! info "Info"
-    This is an example of an **information** message.
+- [Workflow](#workflow)
+- [Função de Extração de dados](#função-de-extração-de-dados)
 
 ## Workflow
 
@@ -20,6 +17,9 @@ flowchart TD
     C([Transformation: concat_data_frames]) ==> |Gera um Dataframe Consilidado| D([Load: Converte para Excel])
     D([Load: Converte para Excel]) ==> |Salva o Consolidado em Excel| E([Pasta Output: Salva um arquivo único em Excel])
 ```
+
+!!! info "Info"
+    Categorização das funções de cada processo do ETL.
 
 ## Função de Extração de dados
 
