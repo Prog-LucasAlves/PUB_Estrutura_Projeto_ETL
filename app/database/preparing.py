@@ -17,7 +17,7 @@ for row in sheet.iter_rows(min_row=2, values_only=True):
     data.append(row)
 
 # Nome para o Schema e tabela no banco de dados
-schema_name = "hr_colaboradore"
+schema_name = "hr_colaboradores"
 table_name = "evaluation"
 
 # Query para criar o schema do banco de dados
