@@ -2,30 +2,50 @@
 
 ![ ](https://github.com/Prog-LucasAlves/Workshop_01/blob/main/image/Projeto.png)
 
-- Essa é a documentação do projeto : [DOCUMENTAÇÃO](https://prog-lucasalves.github.io/Workshop_01/)
+## Unindo varios arquivos .xlsx
 
-1. Clone o repositório:
+- Entrada:
+- arquivos pasta [data/input](https://github.com/Prog-LucasAlves/PUB_Estrutura_Projeto_ETL/tree/main/data/input)
+- Saida:
+- arquivo pasta [data/output](https://github.com/Prog-LucasAlves/PUB_Estrutura_Projeto_ETL/tree/main/data/output)
+
+- Essa é a documentação do projeto: [DOCUMENTAÇÃO](https://prog-lucasalves.github.io/PUB_Estrutura_Projeto_ETL/)
+  
+## *Para realizar esse projeto vou(vamos) utilizar o VSCode e o terminal(PowerShell)*
+
+## Python
+
+- Versão o python **3.11.3** atraves do *pyenv*
+- Arguivo .python-version
+Ref.: [pyenv](https://github.com/pyenv/pyenv)
+  
+## Criando diretório para o projeto
 
 ```bash
-git clone https://github.com/Prog-LucasAlves/Workshop_01.git
+mkdir dataproject
 cd dataproject
 ```
 
-2. Configure a versão correta do Python com `pyenv`:
+## Clonando o repositório
 
 ```bash
-pyenv install 3.11.3
-pyenv local 3.11.3
+git clone https://github.com/Prog-LucasAlves/PUB_Estrutura_Projeto_ETL
 ```
 
-3. Instale as dependências do projeto:
+## Criando ambiente virtual(poetry)
+
+```bash
+poetry shell
+```
+
+Ref.: [poetry](https://python-poetry.org/)
+
+## Instalando as dependências do projeto
 
 ```bash
 poetry install
 ```
 
-4. Ative o ambiente virtual:
-
-```bash
-poetry shell
-```
+ >[!NOTE]
+   >
+   >This is note text.
