@@ -22,7 +22,7 @@
 Ref.: [pyenv](https://github.com/pyenv/pyenv)
 
 >[!NOTE]
->├───.github
+├───.github
 │   └───workflows
 ├───app
 │   └───pipeline
