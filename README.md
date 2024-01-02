@@ -9,15 +9,30 @@
 - Saida:
 - arquivo pasta [data/output](https://github.com/Prog-LucasAlves/PUB_Estrutura_Projeto_ETL/tree/main/data/output)
 
+## Documentação
+
 - Essa é a documentação do projeto: [DOCUMENTAÇÃO](https://prog-lucasalves.github.io/PUB_Estrutura_Projeto_ETL/)
   
 ## *Para realizar esse projeto vou(vamos) utilizar o VSCode e o terminal(PowerShell)*
 
 ## Python
 
-- Versão o python **3.11.3** atraves do *pyenv*
+- Versão do python utilizada: **3.11.3** | atraves do *pyenv*
 - Arguivo .python-version
 Ref.: [pyenv](https://github.com/pyenv/pyenv)
+
+>[!NOTE]
+>├───.github
+│   └───workflows
+├───app
+│   └───pipeline
+├───data
+│   ├───input
+│   └───output
+├───docs
+├───image
+└───tests
+>Estrutura do projeto.
   
 ## Criando diretório para o projeto
 
@@ -46,6 +61,4 @@ Ref.: [poetry](https://python-poetry.org/)
 poetry install
 ```
 
- >[!NOTE]
-   >
-   >This is note text.
+[^1]
