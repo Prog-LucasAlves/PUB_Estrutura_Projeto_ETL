@@ -22,6 +22,7 @@
 Ref.: [pyenv](https://github.com/pyenv/pyenv)
 
 >[!NOTE]
+> Estrutura do Projeto
 
 ```
 ├───.github
@@ -34,7 +35,6 @@ Ref.: [pyenv](https://github.com/pyenv/pyenv)
 ├───docs
 ├───image
 └───tests
->Estrutura do projeto.
 ```
   
 ## Criando diretório para o projeto
