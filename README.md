@@ -23,7 +23,6 @@ Ref.: [pyenv](https://github.com/pyenv/pyenv)
 
 >[!NOTE]
 > Estrutura do Projeto
-
 ```
 ├───.github
 │   └───workflows
@@ -64,4 +63,4 @@ Ref.: [poetry](https://python-poetry.org/)
 poetry install
 ```
 
-[^1]
+- [^1]
