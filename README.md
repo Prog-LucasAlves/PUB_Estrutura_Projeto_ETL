@@ -15,15 +15,10 @@
   
 ## *Para realizar esse projeto vou(vamos) utilizar o VSCode e o terminal(PowerShell)*
 
-## Python
-
-- Versão do python utilizada: **3.11.3** | atraves do *pyenv*
-- Arguivo .python-version
-Ref.: [pyenv](https://github.com/pyenv/pyenv)
-
->[!NOTE]
+> [!NOTE]
 > Estrutura do Projeto
-```
+
+```bash
 ├───.github
 │   └───workflows
 ├───app
@@ -35,6 +30,12 @@ Ref.: [pyenv](https://github.com/pyenv/pyenv)
 ├───image
 └───tests
 ```
+
+## Python
+
+- Versão do python utilizada: **3.11.3** | atraves do *pyenv*
+- Arguivo .python-version
+Ref.: [pyenv](https://github.com/pyenv/pyenv)
   
 ## Criando diretório para o projeto
 
