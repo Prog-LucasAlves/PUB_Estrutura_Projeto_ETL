@@ -63,5 +63,3 @@ Ref.: [poetry](https://python-poetry.org/)
 ```bash
 poetry install
 ```
-
-- [^1]
